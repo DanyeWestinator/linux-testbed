@@ -1,0 +1,3 @@
+alias hello_there="echo 'General Kenobi!'"
+alias c="clear"
+alias reboot_aliases=". ~/.bashrc"
