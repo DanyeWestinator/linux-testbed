@@ -1,3 +1,5 @@
 alias hello_there="echo 'General Kenobi!'"
 alias c="clear"
 alias reboot_aliases=". ~/.bashrc"
+alias ll="ls -la"
+alias push_testbed="git push git@github.com:DanyeWestinator/linux-testbed.git"
