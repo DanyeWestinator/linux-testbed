@@ -19,5 +19,18 @@ def get_hit_count():
 
 @app.route('/')
 def hello():
+    #return "AHHHHHHHH!!!! HELP!!"
     count = get_hit_count()
-    return 'Hello World! I have been seen {} times.\n'.format(count)
+    html = f"""
+            <html>
+            <head>
+            <title>A Test Container!</title>
+             
+            </style>
+            </head>
+            <body>A Test Container!
+            <br />{count} hits</body>
+            </html>
+            """
+    return html
+    #return 'Hello Docker World! I have been seen {} times.\n'.format(count)
