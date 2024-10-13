@@ -1,6 +1,10 @@
 #!/bin/bash
 clear
-echo "Welcome to Servathan-Pi!"
+#Scripts at '/etc/profile.d/<script_name.sh>' will execute on shell start
+#'source /etc/profile' reboots shell
+
+
+echo "Welcome to Servathan-Pi! (Ubuntu flavor)"
 echo
 t=$(uptime -p)
 echo $t

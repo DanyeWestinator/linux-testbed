@@ -6,6 +6,7 @@ rand=$((1 + $RANDOM % $num_savers))
 #rand=4
 #first choice is asciiquarium
 aquarium () {
+#https://github.com/cmatsuoka/asciiquarium
     ~/linux-testbed/asciiquarium
 }
 #2 is pipes
