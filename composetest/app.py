@@ -2,6 +2,7 @@ import time
 
 import redis
 from flask import Flask
+from flask import render_template
 
 app = Flask(__name__)
 cache = redis.Redis(host='redis', port=6379)
@@ -34,3 +35,8 @@ def hello():
             """
     return html
     #return 'Hello Docker World! I have been seen {} times.\n'.format(count)
+
+@app.route('/htmltest')
+def htmltest():
+    hitcount = get_hit_count()
+    return render_template("hello.html", count=hitcount)
