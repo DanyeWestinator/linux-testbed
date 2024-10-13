@@ -20,8 +20,8 @@ def get_hit_count():
 
 @app.route('/')
 def hello():
-    #return "AHHHHHHHH!!!! HELP!!"
-    count = get_hit_count()
+    hit_count = get_hit_count()
+    return render_template("hello.html", count=hit_count)
     html = f"""
             <html>
             <head>
@@ -30,7 +30,7 @@ def hello():
             </style>
             </head>
             <body>A Test Container!
-            <br />{count} hits</body>
+            <br />{hit_count} hits</body>
             </html>
             """
     return html
