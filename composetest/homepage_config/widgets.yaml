@@ -4,6 +4,9 @@
 
 - resources:
     cpu: true
+    cputemp: true
+    uptime: true
+    units: imperial
     memory: true
     disk: /
 

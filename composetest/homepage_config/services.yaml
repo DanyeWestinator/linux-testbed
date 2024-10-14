@@ -7,10 +7,13 @@
         href: http://192.168.0.124:8096/web/index.html#/home.html
         description: Main Servathan Jellyfin instance
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+- Servathan-pi:
+    - Personal Homepage:
+        href: http://192.168.0.235:8000/
+        description: Raw HTML homepage (flask test)
+    - This:
+        href: http://192.168.0.235:3000/
+        description: Recursive recursion .......
 
 - My Third Group:
     - My Third Service:
