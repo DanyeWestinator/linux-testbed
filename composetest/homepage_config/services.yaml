@@ -4,6 +4,7 @@
 
 - Jellyfin Stack:
     - Jellyfin - Core:
+        icon: /images/jellyfin_logo.png
         href: http://192.168.0.124:8096/web/index.html#/home.html
         description: Main Servathan Jellyfin instance
 
@@ -14,8 +15,3 @@
     - This:
         href: http://192.168.0.235:3000/
         description: Recursive recursion .......
-
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
