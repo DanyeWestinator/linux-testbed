@@ -1,0 +1,4 @@
+Still need:
+ >on full reboot =>
+  >> start docker
+  >> both flask / Homepage boot

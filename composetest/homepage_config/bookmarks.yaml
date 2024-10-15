@@ -1,0 +1,33 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/bookmarks
+
+- Development:
+    - Github:
+        - abbr: GH
+          href: https://github.com/
+    - Github - Personal:
+        - abbr: DW
+          href: https://github.com/DanyeWestinator
+
+- Belt o' Watches (waist of time):
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/
+    - Twitter:
+        - abbr: Twtr
+          href: https://twitter.com/
+    - Reddit:
+        - abbr: RE
+          href: https://reddit.com/
+
+- Endless Path Links:
+    - EPS -YouTube:
+        - abbr: YT
+          href: https://youtube.com/@EndlessPathStudios
+    - EPS - Twitter:
+        - abbr: Twtr
+          href: https://twitter.com/endless_paths
+    - EPS - Reddit :
+        - abbr: RE
+          href: https://www.reddit.com/user/EndlessPathStudios/
