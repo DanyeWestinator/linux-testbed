@@ -22,21 +22,8 @@ def get_hit_count():
 def hello():
     hit_count = get_hit_count()
     return render_template("hello.html", count=hit_count)
-    html = f"""
-            <html>
-            <head>
-            <title>A Test Container!</title>
-             
-            </style>
-            </head>
-            <body>A Test Container!
-            <br />{hit_count} hits</body>
-            </html>
-            """
-    return html
-    #return 'Hello Docker World! I have been seen {} times.\n'.format(count)
+    
 
-@app.route('/htmltest')
-def htmltest():
-    hitcount = get_hit_count()
-    return render_template("hello.html", count=hitcount)
+@app.route('/lazerbeams')
+def lazerbeams():
+    return render_template("LazerbeamsWebGL/index.html")

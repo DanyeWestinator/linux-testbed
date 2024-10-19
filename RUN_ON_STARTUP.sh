@@ -1,5 +1,10 @@
 #!/bin/sh
 touch ~/servathan_log.log
+echo "" >> ~/servathan_log.log
+echo "" >> ~/servathan_log.log
+echo "" >> ~/servathan_log.log
+echo "" >> ~/servathan_log.log
+
 echo "Running on startup!" >> ~/servathan_log.log
 echo $(date) >> ~/servathan_log.log
 
