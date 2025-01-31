@@ -3,9 +3,6 @@
 # https://gethomepage.dev/configs/bookmarks
 
 - Development:
-    - Github:
-        - abbr: GH
-          href: https://github.com/
     - Github - Personal:
         - abbr: DW
           href: https://github.com/DanyeWestinator
@@ -34,3 +31,6 @@
     - Wishlists:
         - abbr: WSH
           href: https://partner.steampowered.com/wishlist/summary/
+    - Sales:
+        - abbr: SLES
+          href: https://partner.steampowered.com/app/details/2816280/

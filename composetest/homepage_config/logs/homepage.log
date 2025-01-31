@@ -5,3 +5,123 @@
 [2024-10-14T22:26:56.778Z] info: custom.css was copied to the config folder
 [2024-10-14T22:26:56.781Z] info: custom.js was copied to the config folder
 [2024-10-14T22:26:56.967Z] info: kubernetes.yaml was copied to the config folder
+[2024-10-20T00:35:53.204Z] error: Failed to load services.yaml, please check for errors
+[2024-10-20T00:35:53.209Z] error: YAMLException: bad indentation of a mapping entry (22:5)
+
+ 19 |     - This:
+ 20 |         href: http://192.168.0.235: ...
+ 21 |         description: Recursive recu ...
+ 22 |     -Bookstack:
+----------^
+ 23 |         href: http://192.168.0.235: ...
+ 24 |         description: Self-hosted Se ...
+[2024-10-20T00:35:53.564Z] error: Failed to load services.yaml, please check for errors
+[2024-10-20T00:35:53.566Z] error: YAMLException: bad indentation of a mapping entry (22:5)
+
+ 19 |     - This:
+ 20 |         href: http://192.168.0.235: ...
+ 21 |         description: Recursive recu ...
+ 22 |     -Bookstack:
+----------^
+ 23 |         href: http://192.168.0.235: ...
+ 24 |         description: Self-hosted Se ...
+[2025-01-27T00:01:38.105Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2025-01-27T00:01:38.112Z] error: duplicated mapping key (12:5)
+
+  9 |     units: imperial
+ 10 |     memory: true
+ 11 |     disk: /
+ 12 |     disk: /home/dane/CFL
+----------^
+ 13 | 
+ 14 | - search:
+[2025-01-27T00:01:38.376Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2025-01-27T00:01:38.383Z] error: duplicated mapping key (12:5)
+
+  9 |     units: imperial
+ 10 |     memory: true
+ 11 |     disk: /
+ 12 |     disk: /home/dane/CFL
+----------^
+ 13 | 
+ 14 | - search:
+[2025-01-27T00:01:38.450Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2025-01-27T00:01:38.452Z] error: duplicated mapping key (12:5)
+
+  9 |     units: imperial
+ 10 |     memory: true
+ 11 |     disk: /
+ 12 |     disk: /home/dane/CFL
+----------^
+ 13 | 
+ 14 | - search:
+[2025-01-27T00:01:54.131Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2025-01-27T00:01:54.133Z] error: duplicated mapping key (12:5)
+
+  9 |     units: imperial
+ 10 |     memory: true
+ 11 |     disk: /
+ 12 |     disk: /home/dane/CFL/
+----------^
+ 13 | 
+ 14 | - search:
+[2025-01-27T00:01:54.178Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2025-01-27T00:01:54.180Z] error: duplicated mapping key (12:5)
+
+  9 |     units: imperial
+ 10 |     memory: true
+ 11 |     disk: /
+ 12 |     disk: /home/dane/CFL/
+----------^
+ 13 | 
+ 14 | - search:
+[2025-01-27T00:01:54.388Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2025-01-27T00:01:54.390Z] error: duplicated mapping key (12:5)
+
+  9 |     units: imperial
+ 10 |     memory: true
+ 11 |     disk: /
+ 12 |     disk: /home/dane/CFL/
+----------^
+ 13 | 
+ 14 | - search:
+[2025-01-27T00:10:38.048Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2025-01-27T00:10:38.050Z] error: duplicated mapping key (12:5)
+
+  9 |     units: imperial
+ 10 |     memory: true
+ 11 |     disk: /
+ 12 |     disk: /dev/sda2
+----------^
+ 13 | 
+ 14 | - search:
+[2025-01-27T00:10:38.151Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2025-01-27T00:10:38.152Z] error: duplicated mapping key (12:5)
+
+  9 |     units: imperial
+ 10 |     memory: true
+ 11 |     disk: /
+ 12 |     disk: /dev/sda2
+----------^
+ 13 | 
+ 14 | - search:
+[2025-01-27T00:10:38.453Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2025-01-27T00:10:38.455Z] error: duplicated mapping key (12:5)
+
+  9 |     units: imperial
+ 10 |     memory: true
+ 11 |     disk: /
+ 12 |     disk: /dev/sda2
+----------^
+ 13 | 
+ 14 | - search:
+[2025-01-27T00:10:40.110Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2025-01-27T00:10:40.112Z] error: duplicated mapping key (12:5)
+
+  9 |     units: imperial
+ 10 |     memory: true
+ 11 |     disk: /
+ 12 |     disk: /dev/sda2
+----------^
+ 13 | 
+ 14 | - search:

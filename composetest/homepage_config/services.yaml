@@ -7,15 +7,22 @@
         icon: /images/jellyfin_logo.png
         href: http://192.168.0.124:8096/web/index.html#/home.html
         description: Main Servathan Jellyfin instance
+    - Jellyfin - Pi:
+        icon: /images/jellyfin_logo.png
+        href: http://68.4.34.37:8096/web/index.html#/home.html
+        description: Jellyfin (pi-sized)
+
+    - qBittorrent:
+        href: http://192.168.0.124:8080
+        description: Downloads from the high seas
 
 - Servathan-pi:
     - Cheat Sheet:
         href: https://tinyurl.com/danelinuxcheatsheet
         description: Linux google doc notes
-
-    - Personal Homepage:
-        href: http://192.168.0.235:8000/
-        description: Raw HTML homepage (flask test)
+    - DaneCarstens.net:
+        href: https://danecarstens.net
+        description: Personal & Portfolio site
     - This:
         href: http://192.168.0.235:3000/
         description: Recursive recursion .......
